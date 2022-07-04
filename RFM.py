@@ -137,8 +137,8 @@ def outliers(dataframe, variable):
         not far away from each other only couple of outliers are in dataframe, this
         is the reason why %99 is choosed. Check the dataframe !!!!
     ----------
-    dataframe: dataframe which helds all the data as csv or excel or anyother
-    variable: columns which helds the values for the quartiles
+    dataframe: dataframe which contains all the data as csv or excel or anyother
+    variable: columns which contain the values for the quartiles
 
     Returns
 
@@ -164,7 +164,7 @@ def replace_with_thresholds(dataframe, variable):
 
     low_limit and up_limit are derived from outliers func
     ----------
-    dataframe: dataframe which helds all the data as csv or excel or anyother
+    dataframe: dataframe which contain all the data as csv or excel or anyother
     variable: columns that will be replaced with up_limit and low_limit
 
     Returns
